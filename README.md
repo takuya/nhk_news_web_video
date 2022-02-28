@@ -5,12 +5,12 @@ NHK のニュースのTSとm3u8の動画を保存したりしてffmpegで遊ぶ
 ## install 
 
 ```shell
+git clone  git@github.com:takuya/nhk_news_web_video.git
+cd  nhk_news_web_video
 pipenv install 
 ```
 ## 使い方 
 ```
-git clone  git@github.com:takuya/nhk_news_web_video.git
-cd  nhk_news_web_video
 python3  nhk_news_web_video.py https://www3.nhk.or.jp/news/html/20220226/k10013503071000.html
 ```
 
